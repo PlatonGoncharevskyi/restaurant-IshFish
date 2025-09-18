@@ -1,8 +1,16 @@
-<html>
-<h3>IshFish</h3>
-<ul>
-  <li>Dish types: {{ num_dish_types }}</li>
-  <li>Dishes: {{ num_dishes }}</li>
-  <li>Workers: {{ num_cooks }}</li>
-</ul>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+  <h3>їshFish Service Home</h3>
+  <p>Welcome to Best Restaurant Ever!</p>
+  <h2>Dynamic content</h2>
+  <p>The їshFish service has the following record counts:</p>
+  <ul>
+    <li>Dish types: {{ num_dish_types }}</li>
+    <li>Dishes: {{ num_dishes }}</li>
+    <li>Workers: {{ num_cooks }}</li>
+  </ul>
+  <p>You have visited this page
+        {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
+{% endblock %}

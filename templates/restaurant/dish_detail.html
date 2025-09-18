@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>
+    {{ dish.name }}
+    <a class="btn btn-danger link-to-page" href={% url "restaurant:dish-delete" pk=dish.id%}>Delete</a>
+    <a class="btn btn-secondary link-to-page" href={% url "restaurant:dish-update" pk=dish.id%}>Update</a>
+  </h1>
+  <p><strong>Price: </strong>{{ dish.price }}₴</p>
+  <p><strong>Description: </strong>{{ dish.description }}</p>
+  <div class="ml-3">
+    <h3>Cookers:</h3>
+    {% for cook in dish.cooks.all %}
+      <hr>
+      <p class="text-muted">ID: {{ cook.id }}</p>
+      <p><strong>{{ cook.first_name }} {{ cook.last_name }}</strong><br> Years of experience: {{ cook.years_of_experience }}</p>
+    {% empty %}
+      <p>No cookers!</p>
+    {% endfor %}
+  </div>
+{% endblock %}

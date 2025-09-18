@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load crispy_forms_filters %}
+
+{% block content %}
+  <h1>Dish List <a class="btn btn-primary link-to-page" href={% url "restaurant:dish-create" %}>Create</a></h1>
+  <form method="get" action="" class="form-inline">
+    {{ search_form|crispy }}
+    <input class="btn btn-secondary" type="submit" value="🔎">
+  </form>
+  {% if dish_list %}
+    <ul>
+      {% for dish in dish_list %}
+        <li><a href="{{ dish.get_absolute_url }}">{{ dish.name }} ({{ dish.price }}₴)</a></li>
+      {% endfor %}
+    </ul>
+  {% else %}
+      <p>There are no dishes in the service.</p>
+  {% endif %}
+{% endblock %}
