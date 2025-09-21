@@ -1,0 +1,897 @@
+[
+{
+    "model": "restaurant.dishtype",
+    "pk": 1,
+    "fields": {
+        "name": "Burgers and seafood"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 2,
+    "fields": {
+        "name": "Soups"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 3,
+    "fields": {
+        "name": "Fried dishes"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 4,
+    "fields": {
+        "name": "Sauces"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 5,
+    "fields": {
+        "name": "Hot appetizers"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 6,
+    "fields": {
+        "name": "Sushi"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 7,
+    "fields": {
+        "name": "Bar"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 8,
+    "fields": {
+        "name": "Oysters"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 9,
+    "fields": {
+        "name": "Salads"
+    }
+},
+{
+    "model": "restaurant.dishtype",
+    "pk": 10,
+    "fields": {
+        "name": "Sashimi"
+    }
+},
+{
+    "model": "restaurant.cook",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$omUNww8dFfxxSKnMitTSuT$mXRLj5zZeEM1r+nLnEwq+XErBLy+uwwMDYa1xZGkv+k=",
+        "last_login": "2025-09-21T11:23:03.150Z",
+        "is_superuser": true,
+        "username": "platonium",
+        "first_name": "Platon",
+        "last_name": "Goncharevskyi",
+        "email": "platongoncharevskyi@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-09-16T11:23:13Z",
+        "years_of_experience": 1,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.cook",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$DuvAzVx4juiauFGOCPIquk$eUj3d2JWaQ1tVDY6WVYYkdKRiE0TH4QPizsx/fSfWFA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "max@moldovan",
+        "first_name": "Maxim",
+        "last_name": "Moldovan",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-07-28T14:59:31Z",
+        "years_of_experience": 2,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.cook",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$zrIkLD1qVN30YDJRWJ5hq0$bNRXhXiG/UTuN2n5zJiJ7Ra46PcJSZkPiAyfij7kEPM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "veron@baron",
+        "first_name": "Veronika",
+        "last_name": "Krevetka",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-07-28T15:11:24Z",
+        "years_of_experience": 1,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.cook",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$O8othXDzW5aWArw41bBp7s$4Yj7vDEOI9w0LNKNdpdp+kHPuHkC1EfCgU+zDkJI0V4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "arsen@boss",
+        "first_name": "Arsen",
+        "last_name": "Sheff",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-07-28T15:12:44Z",
+        "years_of_experience": 1,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.cook",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$WxjPJYiIQBDKWzEGF1tN7r$dNbRYCKSt8rdGx2IVom8kFHiKxzRn+Q0iCC4kKDScGk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "olya@cooker",
+        "first_name": "Olya",
+        "last_name": "Povar",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-07-28T19:29:05Z",
+        "years_of_experience": 3,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.cook",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$bBAh0uH9TPQ8LJH6PsDbuQ$O0PcuTQMzz5M0N1pHyQpO7354ZJqxHyTcSDEospM2Eg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "gleb@fish",
+        "first_name": "Gleb",
+        "last_name": "Goncharevskyi",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-04T11:30:04Z",
+        "years_of_experience": 0,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 1,
+    "fields": {
+        "name": "Fish Burger",
+        "description": "fish cutlet, brioche bun, greens, cheddar cheese",
+        "price": "295.00",
+        "dish_type": 1,
+        "cooks": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 2,
+    "fields": {
+        "name": "Bruschetta with salmon",
+        "description": "200g",
+        "price": "175.00",
+        "dish_type": 1,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 3,
+    "fields": {
+        "name": "Bruschetta with guacamole and shrimp",
+        "description": "200g",
+        "price": "299.00",
+        "dish_type": 1,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 4,
+    "fields": {
+        "name": "Smørebrod with herring Matthias",
+        "description": "150g",
+        "price": "129.00",
+        "dish_type": 1,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 5,
+    "fields": {
+        "name": "Hot roll in pita bread with sea bass",
+        "description": "250g",
+        "price": "355.00",
+        "dish_type": 1,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 6,
+    "fields": {
+        "name": "Hot roll in pita bread with dorado",
+        "description": "250g",
+        "price": "365.00",
+        "dish_type": 1,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 7,
+    "fields": {
+        "name": "Ear",
+        "description": "300g",
+        "price": "165.00",
+        "dish_type": 2,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 8,
+    "fields": {
+        "name": "Tom yam",
+        "description": "400g",
+        "price": "365.00",
+        "dish_type": 2,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 9,
+    "fields": {
+        "name": "Salad with lightly salted salmon and pine nuts",
+        "description": "250g",
+        "price": "395.00",
+        "dish_type": 9,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 10,
+    "fields": {
+        "name": "Seafood salad with sesame kimchi",
+        "description": "250g",
+        "price": "395.00",
+        "dish_type": 9,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 11,
+    "fields": {
+        "name": "Salmon salad in Unagi sauce",
+        "description": "250g, Medium-spicy",
+        "price": "349.00",
+        "dish_type": 9,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 12,
+    "fields": {
+        "name": "French fries",
+        "description": "150g",
+        "price": "75.00",
+        "dish_type": 3,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 13,
+    "fields": {
+        "name": "Rice chips",
+        "description": "portion",
+        "price": "65.00",
+        "dish_type": 3,
+        "cooks": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 14,
+    "fields": {
+        "name": "Ketchup",
+        "description": "50g",
+        "price": "55.00",
+        "dish_type": 4,
+        "cooks": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 15,
+    "fields": {
+        "name": "Mayonnaise",
+        "description": "50g",
+        "price": "55.00",
+        "dish_type": 4,
+        "cooks": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 16,
+    "fields": {
+        "name": "Narrow",
+        "description": "50g",
+        "price": "55.00",
+        "dish_type": 4,
+        "cooks": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 17,
+    "fields": {
+        "name": "Sweet chili",
+        "description": "50g",
+        "price": "75.00",
+        "dish_type": 4,
+        "cooks": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 18,
+    "fields": {
+        "name": "Wine and onion for oysters",
+        "description": "50g",
+        "price": "55.00",
+        "dish_type": 4,
+        "cooks": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 19,
+    "fields": {
+        "name": "Raspberry-onion with oysters",
+        "description": "50g",
+        "price": "55.00",
+        "dish_type": 4,
+        "cooks": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 20,
+    "fields": {
+        "name": "Japanese mayonnaise",
+        "description": "50g",
+        "price": "75.00",
+        "dish_type": 4,
+        "cooks": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 21,
+    "fields": {
+        "name": "Mussels in wine sauce",
+        "description": "500g",
+        "price": "385.00",
+        "dish_type": 5,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 22,
+    "fields": {
+        "name": "Mussels in cheese sauce",
+        "description": "500g",
+        "price": "399.00",
+        "dish_type": 5,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 23,
+    "fields": {
+        "name": "Asian-style rice with salmon",
+        "description": "450g",
+        "price": "345.00",
+        "dish_type": 5,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 24,
+    "fields": {
+        "name": "Asian-style rice with seafood",
+        "description": "450g",
+        "price": "359.00",
+        "dish_type": 5,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 25,
+    "fields": {
+        "name": "Asian-style rice with tiger shrimp",
+        "description": "450g",
+        "price": "389.00",
+        "dish_type": 5,
+        "cooks": [
+            1
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 26,
+    "fields": {
+        "name": "Asian-style rice with salmon in light chili sauce",
+        "description": "350g",
+        "price": "350.00",
+        "dish_type": 5,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 27,
+    "fields": {
+        "name": "Seafood skewers in mint-basil sauce",
+        "description": "350g",
+        "price": "575.00",
+        "dish_type": 5,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 28,
+    "fields": {
+        "name": "Maki Rolls",
+        "description": "Avocado, Cucumber, Maki, Tuna, Salmon",
+        "price": "130.00",
+        "dish_type": 6,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 29,
+    "fields": {
+        "name": "California Rolls",
+        "description": "Tuna, Salmon, Eal",
+        "price": "375.00",
+        "dish_type": 6,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 30,
+    "fields": {
+        "name": "Philadelphia Rolls",
+        "description": "Salmon, Eal",
+        "price": "395.00",
+        "dish_type": 6,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 31,
+    "fields": {
+        "name": "Warm Rolls",
+        "description": "Tuna, Salmon, Eal",
+        "price": "369.00",
+        "dish_type": 6,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 32,
+    "fields": {
+        "name": "Dragon Rolls",
+        "description": "Red, Golden",
+        "price": "445.00",
+        "dish_type": 6,
+        "cooks": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 33,
+    "fields": {
+        "name": "With salmon",
+        "description": "100g",
+        "price": "245.00",
+        "dish_type": 10,
+        "cooks": [
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 34,
+    "fields": {
+        "name": "With tuna",
+        "description": "100g",
+        "price": "299.00",
+        "dish_type": 10,
+        "cooks": [
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 35,
+    "fields": {
+        "name": "With eal",
+        "description": "100g",
+        "price": "355.00",
+        "dish_type": 10,
+        "cooks": [
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 36,
+    "fields": {
+        "name": "Sanchez 1",
+        "description": "1g",
+        "price": "95.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 37,
+    "fields": {
+        "name": "Fin de Clair 1",
+        "description": "1g",
+        "price": "95.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 38,
+    "fields": {
+        "name": "Bodyz 4",
+        "description": "1g",
+        "price": "115.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 39,
+    "fields": {
+        "name": "Ostra Regal 2",
+        "description": "1g",
+        "price": "155.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 40,
+    "fields": {
+        "name": "Special G 2",
+        "description": "1g",
+        "price": "135.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 41,
+    "fields": {
+        "name": "Gilardo 3",
+        "description": "1g",
+        "price": "175.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 42,
+    "fields": {
+        "name": "Senyatur Special 2",
+        "description": "1g",
+        "price": "135.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 43,
+    "fields": {
+        "name": "Black Pearl 2",
+        "description": "1g",
+        "price": "145.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 44,
+    "fields": {
+        "name": "Black Queen 2",
+        "description": "1g",
+        "price": "145.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 45,
+    "fields": {
+        "name": "Mediterranean 1",
+        "description": "1g",
+        "price": "95.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 46,
+    "fields": {
+        "name": "Kis Marin 2",
+        "description": "1g",
+        "price": "175.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 47,
+    "fields": {
+        "name": "Kis Letual 2",
+        "description": "1g",
+        "price": "229.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 48,
+    "fields": {
+        "name": "Best from Ireland 3",
+        "description": "1g",
+        "price": "175.00",
+        "dish_type": 8,
+        "cooks": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 50,
+    "fields": {
+        "name": "Strong Alcohol",
+        "description": "50ml",
+        "price": "120.00",
+        "dish_type": 7,
+        "cooks": [
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 51,
+    "fields": {
+        "name": "Bottled Beer",
+        "description": "0.33l",
+        "price": "120.00",
+        "dish_type": 7,
+        "cooks": []
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 52,
+    "fields": {
+        "name": "Bottled Wine",
+        "description": "0.75l",
+        "price": "750.00",
+        "dish_type": 7,
+        "cooks": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 53,
+    "fields": {
+        "name": "Juice",
+        "description": "0.33l",
+        "price": "60.00",
+        "dish_type": 7,
+        "cooks": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 54,
+    "fields": {
+        "name": "Test dish",
+        "description": "test",
+        "price": "999.00",
+        "dish_type": 2,
+        "cooks": [
+            1,
+            2,
+            3
+        ]
+    }
+}
+]
