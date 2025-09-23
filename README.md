@@ -9,6 +9,21 @@ The goal is to improve communication and organization in the kitchen.
 - Assign responsible chefs for cooking dishes.
 - Convenient menu management and internal processes in the kitchen.
 
+🌐 **Live Deployment**
+
+The project is deployed and available online at:
+
+[Restaurant IshFish](https://restaurant-ishfish.onrender.com/)
+
+You can explore the full functionality directly in your browser.
+
+🔹 **Test Account**
+
+To test authenticated features, you can use the following credentials:
+
+- **Email:** `test@user`
+- **Password:** `testus123`
+
 ## Technologies
 
 - Python 3.x
